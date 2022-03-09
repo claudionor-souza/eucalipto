@@ -1,0 +1,183 @@
+@charset "UTF-8";
+
+
+
+        :root{
+            --cor0:#fff;
+            --cor1:#aad576;
+            --cor2:#73a942;
+            --cor3:#538d22;
+            --cor4:#245501;
+            --cor5:#1a4301;
+            --cor6:#143601;
+            --cor7:rgba(0, 0, 0, 0.4);
+        }
+
+        *{
+            margin: 0px;
+            padding: 0px;
+        }
+
+        p {
+            margin-top: 15px;
+            margin-bottom: 15px;
+        }
+
+        body {
+            background-color: var(--cor1);
+
+        }
+
+        header {
+            background-color: var( --cor3);
+            min-height: 130px;
+            text-shadow: 0px 2px 2px var(--cor7);
+            padding: 8px;
+        }
+
+        header h1 {
+            color: var(--cor0);
+            font: 4em Arial;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            background-color: var(--cor3);
+            color: var(--cor0);
+            box-shadow: 0px 2px 2px var(--cor7);
+            padding: 10px;   
+        }
+
+        nav a {
+            color: var(--cor0);
+            font: 1.3em Arial;
+            font-weight: lighter;
+            text-decoration: none;
+            transition-duration: .5s;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+            background-color: var(--cor1);
+            color: var(--cor5);
+            border-radius: 4px;
+        }
+
+        main {
+            background-color: var(--cor0);
+            box-shadow: 2px 2px 4px  var(--cor7);
+            border-radius: 10px;
+            min-width: 300px;
+            max-width: 900px;
+            margin: auto;
+            margin-top: -15px;
+            margin-bottom: 3px;
+            padding-bottom: 6px;               
+        }
+
+        main p {
+            font: 1em Arial;
+            text-align: justify;
+            text-indent: 25px;
+            line-height: 1.6em;
+            margin-left: 20px;
+            margin-right: 20px;
+        }
+        main h1 {
+            color: var(--cor4);
+            font: 2.8em Arial;
+            font-weight: bold;
+            margin: 20px;
+            padding:10px;
+        }
+
+        main h2 {
+            color: var(--cor4);
+            font: 1.8em Arial;
+            margin: 20px;
+        }
+
+        main p > a {
+            text-decoration: none;
+            background-color: var(--cor1);
+            color: var(--cor4);
+        }
+
+        main p > a:hover {
+            text-decoration: underline;
+        }
+
+        a.externo::after {
+            content: '\00A0\1F517';
+        }
+       
+        strong {
+            color: var(--cor6);
+        }
+
+        main h3 {
+            color: var(--cor6);
+            font: 1.5em Arial;
+            margin: 20px;
+        }
+
+        main img {
+            border-radius: 7px;
+            box-shadow: 4px 4px 6px var(--cor7);
+            width: auto;
+            margin: 12%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+
+        ul {
+            background-image: linear-gradient(to right, var(--cor1), transparent);
+            color: var(--cor6);
+            border-radius: 7px;
+            box-shadow: 3px 3px 5px var(--cor7);
+            font: 1em Arial;
+            font-weight: bolder;
+            line-height: 1.5em;
+            margin: 35px;
+            list-style-position:inside;
+            list-style-type:'\00A0\1F5F8\00A';
+            columns: 2;    
+        }
+
+        aside{
+            background-color: var(--cor1);
+            box-shadow: 3px 3px 5px var(--cor7);
+            border-radius: 7px;
+            margin: auto;
+            max-width: 800px;
+            padding-bottom: 6px;
+        }
+
+        aside > img {
+            width: 50%;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            margin-left: 23%;
+        }
+
+        aside h3 {
+            
+            text-decoration: underline;
+            padding-top: 20px;
+            
+        }
+
+        aside p {
+            line-height: 1.2em;
+            
+        }
+
+        footer {
+            color: var(--cor4);
+            font: 1em Arial;
+            text-align: center;
+           margin-bottom: 10px;
+           padding-top: 3px; 
+        }
