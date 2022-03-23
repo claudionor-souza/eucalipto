@@ -67,12 +67,12 @@
 
         main {
             background-color: var(--cor0);
-            box-shadow: 2px 2px 4px  var(--cor7);
-            border-radius: 10px;
+            box-shadow: .7px .7px var(--cor7);
+            border-radius: 3.9px;
             min-width: 300px;
             max-width: 900px;
             margin: auto;
-            margin-top: -15px;
+            margin-top: -18px;
             margin-bottom: 3px;
             padding-bottom: 6px;               
         }
@@ -124,8 +124,8 @@
         }
 
         main img {
-            border-radius: 7px;
-            box-shadow: 4px 4px 6px var(--cor7);
+            border-radius: 3.8px;
+            box-shadow: .5px .5px var(--cor7);
             width: auto;
             margin: 12%;
             margin-top: 20px;
@@ -135,12 +135,13 @@
         ul {
             background-image: linear-gradient(to right, var(--cor1), transparent);
             color: var(--cor6);
-            border-radius: 7px;
-            box-shadow: 3px 3px 5px var(--cor7);
+            border: .8px dashed var(--cor7);
+            border-radius: 3.8px;
+            box-shadow: .6px .6px var(--cor7);
             font: 1em Arial;
             font-weight: bolder;
             line-height: 1.5em;
-            margin: 35px;
+            margin: 10px 35px 35px;
             list-style-position:inside;
             list-style-type:'\00A0\1F5F8\00A';
             columns: 2;    
@@ -149,7 +150,7 @@
         aside{
             background-color: var(--cor1);
             box-shadow: 3px 3px 5px var(--cor7);
-            border-radius: 7px;
+            border-radius: 3.8px;
             margin: auto;
             max-width: 800px;
             padding-bottom: 6px;
