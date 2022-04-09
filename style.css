@@ -144,7 +144,8 @@
             margin: 10px 35px 35px;
             list-style-position:inside;
             list-style-type:'\00A0\1F5F8\00A';
-            columns: 2;    
+            columns: 2; 
+            width: 300px;   
         }
 
         aside{
