@@ -135,16 +135,13 @@
         ul {
             background-image: linear-gradient(to right, var(--cor1), transparent);
             color: var(--cor6);
-            border: .8px dashed var(--cor7);
             border-radius: 3.8px;
             box-shadow: .6px .6px var(--cor7);
             font: 1em Arial;
             font-weight: normal;
             line-height: 1.5em;
             margin: auto;
-            
-            list-style-position:inside;
-            list-style-type:'\00A0\1F5F8\00A';
+            list-style-position:inside;    
             columns: 2; 
             width: 300px;   
         }
